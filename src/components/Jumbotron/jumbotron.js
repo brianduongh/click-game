@@ -1,12 +1,13 @@
 import React from 'react';
-import { Jumbotron, Button } from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
+import './jumbotron.css';
 
 const JumbotronPart = () => (
   <Jumbotron>
   <div className="container">
-    <h1>Hello, world!</h1>
+    <h1>Street Fighter!</h1>
     <p>
-      Clicky game. click an image to start
+      Pick an opponent to fight but don't click on the same one twice!
     </p>
     </div>
   </Jumbotron>

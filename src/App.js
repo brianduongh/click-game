@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 
-import Navbar from './components/Navbar';
-import Jumbotron from './components/Jumbotron';
+import Game from './scenes/Game';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        <Jumbotron />
-      </div>
+      <Game />
     );
   }
 }

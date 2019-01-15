@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import './navbar.css';
 
-const Navigationbar = () => (
+const Navigationbar = props => (
   <Navbar>
     <Navbar.Header>
       <Navbar.Brand>
@@ -10,10 +10,10 @@ const Navigationbar = () => (
       </Navbar.Brand>
     </Navbar.Header>
     <Navbar.Text>
-      Result 0 | 1
+      Result {props.count} | {props.topScore}
     </Navbar.Text>
     <Navbar.Text>
-      Click An image to begin!
+      {props.gameMessage}
     </Navbar.Text>
   </Navbar>
 );
