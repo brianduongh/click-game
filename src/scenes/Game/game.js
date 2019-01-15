@@ -70,6 +70,7 @@ class Game extends Component {
         />
         <Jumbotron />
         <div className="container">
+        <h2>Pick an opponent to fight but don't click on the same one twice!</h2>
           {cards.map(card => (
             <Card
               id={card.id}
